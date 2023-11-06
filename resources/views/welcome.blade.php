@@ -58,7 +58,7 @@
             height: auto
         }
 
-        a:hover{
+        ol li a:hover{
             color: white;
             font-size: larger;
         }
