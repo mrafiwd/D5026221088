@@ -56,3 +56,5 @@ Route::get('latihan1', function () {
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('perkalian', 'App\Http\Controllers\DosenController@index') ;
