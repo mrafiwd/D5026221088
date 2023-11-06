@@ -468,7 +468,6 @@
                                     <li><div><a href="/news">News</a></div></li>
                                     <li><div><a href="/validasi1">Validation Form</a></div></li>
                                     <li><div><a href="/berita">Berita</a></div></li>
-                                    <li><div><a href="/blog">Blog</a></div></li>
                                 </ol>
                             </div>
                         </div>

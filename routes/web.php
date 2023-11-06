@@ -59,3 +59,4 @@ Route::get('/', function () {
 
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index') ;
 Route::get('show', 'App\Http\Controllers\DosenController@showBlog') ;
+
