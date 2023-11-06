@@ -12,4 +12,14 @@ class DosenController extends Controller
         $c = $a*$b;
         return "<h1>Hasil Perkalian = " . (string)$c . "</h1>";
     }
+
+    public function showBlog(){
+        $nama = "Wede";
+        $alamat = "BME B33";
+        $hoby = "Mancing";
+        $umur = 20;
+        return view('blog',['nama' => $nama ,'alamat' => $alamat, 'umur' => $umur]);
+    }
+
+
 }
