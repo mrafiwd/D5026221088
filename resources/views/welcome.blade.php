@@ -58,7 +58,10 @@
             height: auto
         }
 
-
+        a:hover{
+            color: white;
+            font-size: larger;
+        }
 
         .bg-white {
             --bg-opacity: 1;
