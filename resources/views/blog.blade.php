@@ -11,8 +11,8 @@
     <p>Seri Tutorial Laravel Lengkap Dari Dasar</p>
     <p>Ini adalah view blog. Ada di route blog</p>
     <p>
-        Nama : {{$nama}} -
-        Alamat : {{$alamat}} -
+        Nama : {{$nama}} --
+        Alamat : {{$alamat}} -- 
         Umur : {{$umur}}
     </p>
 </body>
