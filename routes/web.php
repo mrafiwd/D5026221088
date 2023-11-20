@@ -72,3 +72,10 @@ Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
 Route::get('/blog', 'App\Http\Controllers\BlogController@home');
 Route::get('/blog/tentang', 'App\Http\Controllers\BlogController@tentang');
 Route::get('/blog/kontak', 'App\Http\Controllers\BlogController@kontak');
+
+Route::get('/dbpegawai','App\Http\Controllers\PegawaiController@index');
+Route::get('/dbpegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
+Route::post('/dbpegawai/store','App\Http\Controllers\PegawaiController@store');
+Route::get('/dbpegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
+Route::post('/dbpegawai/update','App\Http\Controllers\PegawaiController@update');
+Route::get('/dbpegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
