@@ -5,8 +5,9 @@
 <h3>Data Pegawai</h3>
 
 <p>Cari Data Pegawai :</p>
+
 	<form  action="/dbpegawai/cari" method="GET">
-		<input class="form-control" type="text" name="cari" placeholder="Cari Pegawai Berdasarkan Nama .." value="{{ old('cari') }}">
+		<input class="form-control" type="text" name="cari" placeholder="Cari Pegawai Berdasarkan Nama .." value="{{ old('cari') }}"> <br>
 		<input type="submit" value="CARI" class="btn btn-primary">
 	</form>
 

@@ -41,6 +41,7 @@
 			   <textarea required="required" name="alamat" class="form-control" id="alamat" placeholder="Masukan Alamat">{{ $p->pegawai_alamat }}</textarea>
 		   </div>
 		</div>
+        <br>
 		<input type="submit" value="Simpan Data" class="btn btn-primary">
 	</form>
 	@endforeach

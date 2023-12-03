@@ -9,7 +9,7 @@
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 	<h3>Tambah Data Pegawai</h3>
 
-	<a href="/dbpegawai"> Kembali</a>
+	<a class="btn btn-primary" href="/dbpegawai"> Kembali</a>
 
 	<br/>
 	<br/>
@@ -41,8 +41,8 @@
                <textarea name="alamay" class = "form-control" id = "alamat" placeholder = "Masukan Alamat"></textarea>
             </div>
          </div>
-
-		<input type="submit" value="Simpan Data">
+        <br>
+		<input type="submit" value="Simpan Data" class="btn btn-primary">
 	</form>
 
 @endsection
