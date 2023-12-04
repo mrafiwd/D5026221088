@@ -83,3 +83,8 @@ Route::get('/dbpegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/dbpegawai/view','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/dbpegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+
+Route::get('/dbnilai','App\Http\Controllers\NilaiController@indexNilai');
+Route::get('/dbnilai/tambah','App\Http\Controllers\NilaiController@tambahData');
+Route::post('/dbnilai/storeData','App\Http\Controllers\NilaiController@storeData');
