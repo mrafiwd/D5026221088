@@ -13,31 +13,36 @@
 
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <!-- Brand -->
             <a class="navbar-brand" href="#">5026221088 - Muhammad Rafi Widya Danendra</a>
 
             <!-- Links -->
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
+                <a class="nav-link" href="/dbpegawai">Pegawai</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
+                <a class="nav-link" href="/dbnilai">Nilai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dblipstick">Lipstick</a>
               </li>
 
               <!-- Dropdown -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  Database
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Database
                 </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="/pegawai">Pegawai</a>
-                  <a class="dropdown-item" href="#">Link 2</a>
-                  <a class="dropdown-item" href="#">Link 3</a>
-                </div>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="/dbpegawai">Pegawai</a></li>
+                    <li><a class="dropdown-item" href="/dbnilai">Nilai</a></li>
+                    <li><a class="dropdown-item" href="/dblipstick">Lipstick</a></li>
+                </ul>
               </li>
+
             </ul>
           </nav>
         <header>
@@ -55,10 +60,13 @@
         <br/>
         <br/>
 
-        <!-- bagian judul halaman blog -->
-        @yield('judul_halaman')
+        <div class="container">
+            <!-- bagian judul halaman blog -->
+            @yield('judul_halaman')
 
-        @yield('konten')
+            @yield('konten')
+
+        </div>
 
             <br/>
             <br/>

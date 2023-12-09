@@ -88,3 +88,13 @@ Route::get('/dbpegawai/view/{id}','App\Http\Controllers\PegawaiController@view')
 Route::get('/dbnilai','App\Http\Controllers\NilaiController@indexNilai');
 Route::get('/dbnilai/tambah','App\Http\Controllers\NilaiController@tambahData');
 Route::post('/dbnilai/storeData','App\Http\Controllers\NilaiController@storeData');
+
+Route::get('/dblipstick','App\Http\Controllers\PraEASController@indexLipstick');
+Route::get('/dblipstick/tambah','App\Http\Controllers\PraEASController@tambahData');
+Route::post('/dblipstick/storeData','App\Http\Controllers\PraEASController@storeData');
+Route::get('/dblipstick/edit/{id}','App\Http\Controllers\PraEASController@edit');
+Route::post('/dblipstick/update','App\Http\Controllers\PraEASController@update');
+Route::get('/dblipstick/hapus/{id}','App\Http\Controllers\PraEASController@hapus');
+Route::get('/dblipstick/cari','App\Http\Controllers\PraEASController@cari');
+
+
