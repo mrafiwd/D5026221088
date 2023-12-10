@@ -17,21 +17,21 @@
 	<form action="/dblipstick/update" method="post">
 		{{ csrf_field() }}
         <input type="hidden" name="id" value="{{ $l->kodelipstick }}"> <br/>
-        <div class = "form-group">
+        <div class = " form-group row">
             <label for = "merk" class = "col-sm-2 control-label">Nama Merk</label>
-            <div class = "col-sm-10">
-               <input  name="merk" type = "text" required = "required" class = "form-control" id = "merk" value="{{ $l->merklipstick }}" readonly>
+            <div class = "col-sm-8">
+               <input  name="merk" type = "text" required = "required" class = "form-control-plaintext" id = "merk" value="{{ $l->merklipstick }}" readonly>
             </div>
         </div>
-		<div class = "form-group">
+		<div class = " form-group row">
 		   <label for = "stock" class = "col-sm-2 control-label">Stock Lipstick</label>
-		   <div class = "col-sm-10">
+		   <div class = "col-sm-8">
 			   <input  name="stock" type = "number" required = "required" class = "form-control" id = "stock"  value="{{ $l->stocklipstick }}">
 		   </div>
 		</div>
-		<div class = "form-group">
+		<div class = " form-group row">
 		   <label for = "tersedia" class = "col-sm-2 control-label">Ketersediaan Stock</label>
-		   <div class = "col-sm-10">
+		   <div class = "col-sm-1">
             <select name = "tersedia" class="form-select" required = "required" id = "tersedia">
                 <option>Y</option>
                 <option>N</option>

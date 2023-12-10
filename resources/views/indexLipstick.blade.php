@@ -19,26 +19,26 @@
 
 @section('konten')
 
-	<table class="table table-striped table-hover">
-		<tr>
-			<th>Kode Lipstick</th>
+	<table class="table table-striped table-hover text-center">
+		<tr >
+			<th class="col-2">Kode Lipstick</th>
 			<th>Merk Lipstick</th>
-			<th>Stock Lipstick</th>
+			<th class="col-2">Stock Lipstick</th>
 			<th>Tersedia</th>
             <th>Opsi</th>
 		</tr>
 		@foreach($lipstick as $l)
-		<tr>
+		<tr >
             <td>{{ $l->kodelipstick }}</td>
             <td>{{ $l->merklipstick }}</td>
             <td> {{ $l->stocklipstick }}</td>
-            <div class="text-center">
+            <div>
                 <td
                 @if ($l->tersedia =="Y" ){
-                    class = "bg-success text-white text-center"
+                    class = "bg-success text-white col-1"
                 }
                 @else{
-                    class = "bg-danger text-white text-center" value = "Tidak Ada"
+                    class = "bg-danger text-white  col-1"
                 }
                 @endif
                 >{{ $l->tersedia }}
