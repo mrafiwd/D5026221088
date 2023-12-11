@@ -29,6 +29,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="/dblipstick">Lipstick</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dbmahasiswa">Mahasiswa</a>
+              </li>
 
               <!-- Dropdown -->
               <li class="nav-item dropdown">
@@ -40,6 +43,7 @@
                     <li><a class="dropdown-item" href="/dbpegawai">Pegawai</a></li>
                     <li><a class="dropdown-item" href="/dbnilai">Nilai</a></li>
                     <li><a class="dropdown-item" href="/dblipstick">Lipstick</a></li>
+                    <li><a class="dropdown-item" href="/dbmahasiswa">Mahassiwa</a></li>
                 </ul>
               </li>
 
@@ -57,8 +61,6 @@
             </nav>
         </header>
         <hr/>
-        <br/>
-        <br/>
 
         <div class="container">
             <!-- bagian judul halaman blog -->

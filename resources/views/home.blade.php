@@ -1,6 +1,6 @@
 
 <!-- Menghubungkan dengan view template master -->
-@extends('master')
+@extends('master2')
 
 <!-- isi bagian judul halaman -->
 <!-- cara penulisan isi section yang pendek -->

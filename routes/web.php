@@ -60,6 +60,7 @@ Route::get('/', function () {
 
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index') ;
 Route::get('blog2', 'App\Http\Controllers\DosenController@showBlog') ;
+Route::get('/master2', 'App\Http\Controllers\Controller@indexMaster') ;
 
 
 Route::get('/pegawai/{nama}', 'App\Http\Controllers\DosenController@shownama');
@@ -80,7 +81,6 @@ Route::get('/dbpegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit')
 Route::post('/dbpegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/dbpegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/dbpegawai/cari','App\Http\Controllers\PegawaiController@cari');
-Route::get('/dbpegawai/view','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/dbpegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
@@ -97,4 +97,7 @@ Route::post('/dblipstick/update','App\Http\Controllers\PraEASController@update')
 Route::get('/dblipstick/hapus/{id}','App\Http\Controllers\PraEASController@hapus');
 Route::get('/dblipstick/cari','App\Http\Controllers\PraEASController@cari');
 
-
+Route::get('/dbmahasiswa','App\Http\Controllers\MahasiswaController@indexMahasiswa');
+Route::get('/dbmahasiswa/edit/{id}','App\Http\Controllers\MahasiswaController@edit');
+Route::post('/dbmahasiswa/update','App\Http\Controllers\MahasiswaController@update');
+Route::get('/dbmahasiswa/view/{id}','App\Http\Controllers\MahasiswaController@view');

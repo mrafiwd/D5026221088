@@ -482,8 +482,8 @@
                                 </path>
                                 <path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
-                            <div class="ml-4 text-lg leading-7 font-semibold"><a href="/profileETS"
-                                    class="underline text-gray-900 dark:text-white">Profile ETS</a></div>
+                            <div class="ml-4 text-lg leading-7 font-semibold"><a href="/master2"
+                                    class="underline text-gray-900 dark:text-white">Master Page Pemrograman Web</a></div>
                         </div>
 
                         <div class="ml-12">
